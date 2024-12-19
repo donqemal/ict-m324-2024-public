@@ -1,4 +1,7 @@
 # ict-m324 - Programmieraufgabe 2
+=======
+# Solution
+
 
 ## Git, GitHub, Release, Automatisierung
 
