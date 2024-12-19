@@ -1,0 +1,17 @@
+name: Virus Check PR
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  virus_check_pr:
+    runs-on: ubuntu-latest
+    name: An example job to check for viruses in a PR
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Virus Check PR
+        if: 1 == 2
+        uses: 'hugoalh/scan-virus-ghaction@v0.20.1'
